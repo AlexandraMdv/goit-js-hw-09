@@ -14,7 +14,7 @@ const secEl = document.querySelector('.value[data-seconds]');
 // console.log(daysEl);
 
 
-const flatpickr = require('flatpickr');
+// const flatpickr = require('flatpickr');
 // console.log(flatpickr);
 
 startBtnEl.style.cursor = 'not-allowed';
