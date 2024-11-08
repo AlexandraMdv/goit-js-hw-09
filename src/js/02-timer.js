@@ -76,9 +76,9 @@ function reverseCounting() {
 
     const {days, hours, minutes, seconds} = convertMs(diff);
     
-    daysEl.textContent = days;
-    hoursEl.textContent = hours;
-    minEl.textContent = minutes;
-    secEl.textContent = seconds;
+    daysEl.textContent = String(days).padStart(2, '0');
+    hoursEl.textContent = String(hours).padStart(2, '0');
+    minEl.textContent = String(minutes).padStart(2, '0');
+    secEl.textContent = String(seconds).padStart(2, '0');
 }
 
