@@ -1,4 +1,5 @@
 import Notiflix from 'notiflix';
+import "notiflix/dist/notiflix.min.css";
 
 const amountEl = document.querySelector('input[name="amount"]');
 const delayEl = document.querySelector('input[name="delay"]');
